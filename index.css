@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+}
+
+.signup-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    text-align: center;
+    color: #5e5c61;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #5e5c61;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.login-btn,
+.profile-btn,
+.raise-event-btn,
+.ask-for-push-btn {
+    width: calc(25% - 5px); /* Adjust button width as per your preference */
+    padding: 10px;
+    margin: 1%;
+    background-color: #5e5c61;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ask-for-push-btn {
+    margin-right: 0;
+}
+
+.login-btn:hover,
+.profile-btn:hover,
+.raise-event-btn:hover,
+.ask-for-push-btn:hover {
+    background-color: #444;
+}
+
+
+/* .login-btn:hover,
+.profile-btn:hover,
+.raise-event-btn:hover {
+    background-color: #ddd;
+} */
+.ask-for-push-btn {
+    width: calc(33.33% - 5px);
+    padding: 10px;
+    background-color: #5e5c61;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ask-for-push-btn:hover {
+    background-color: #444;
+}
