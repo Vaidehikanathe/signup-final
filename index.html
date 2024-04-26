@@ -36,7 +36,7 @@
             //  1: display only errors
             //  2: display errors and info
             //  3: display all logs
-            clevertap.setLogLevel(2);
+            clevertap.setLogLevel(1);
             // clevertap.setOffline(true) // sets the sdk in offline mode.Events will be queued locally and             will be fired only when offline mode is set to false
             clevertap.setOffline(false) // disables the offline mode. Events will now get fired immediately
 
@@ -80,9 +80,9 @@
         </form>
     </div>
 
-</body>
+
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    // document.addEventListener('DOMContentLoaded', function () {
         const loginBtn = document.querySelector('.login-btn');
         const profileBtn = document.querySelector('.profile-btn');
         const raiseEventBtn = document.querySelector('.raise-event-btn');
@@ -130,7 +130,7 @@
      * Date object
      * When a property value is of type Date, the date and time are both recorded to the second.
      */
-            console.log('Profile successfully pushed.');
+        console.log('Profile successfully pushed.');
 
         });
 
@@ -155,8 +155,8 @@
                 "okButtonColor": '#f28046'
             });
         });
-    });
+    // });
 
 </script>
-
+</body>
 </html>
